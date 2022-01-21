@@ -1,0 +1,33 @@
+.about {
+  background-color: $color-houseBG;
+  padding-bottom: 120px;
+  padding-top: 75px;
+  position: relative;
+
+  &__container {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__content {
+    max-width: 419px;
+  }
+
+  &__object {
+    position: absolute;
+    left: 0;
+    top: 72px;
+  }
+
+  &__title {
+    @include font-cabinet-black;
+    @include font(48px, 59.5px);
+    color: $color-text-dark;
+    margin-top: 42px;
+    margin-bottom: 21px;
+  }
+
+  &__text {
+    margin-bottom: 40px;
+  }
+}
